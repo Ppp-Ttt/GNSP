@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import json
 import numpy as np
 
-from src.main import mtil_main, mtil_main
+from src.main import mtil_main
 from src.model_load_test import model_load
 from src.args import parse_arguments
 from src.models import evaluate
