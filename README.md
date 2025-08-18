@@ -56,7 +56,6 @@ Some of these datasets can be downloaded in the following ways:
 ```
 # caltech101:
 wget https://data.caltech.edu/records/mzrjq-6wc02/files/caltech-101.zip?download=1
-python -c "import zipfile; zipfile.ZipFile('caltech-101.zip','r').extractall('/home/liuyuyang/ptt/GIFT_CL/data/mtil/caltech101')"
 
 # EuroSAT
 wget https://zenodo.org/records/7711810/files/EuroSAT_MS.zip?download=1
