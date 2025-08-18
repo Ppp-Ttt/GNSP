@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import json
 import numpy as np
 
-# 导入并运行 main_new
 from src.main import mtil_main, mtil_main
 from src.model_load_test import model_load
 from src.args import parse_arguments
@@ -55,7 +54,7 @@ if __name__ == '__main__':
         args.ref_dataset = config["ref_dataset"]
         args.ref_data_nums = config["ref_data_nums"]
 
-        args.gnsp = i>0 # 如果为T，则会限制更新参数
+        args.gnsp = i>0 
         args.gnsp_rho = config["gnsp_rho"]
         if i > 0:
             args.pt_source_dir = f"./gram_matrix/{exp_name}/{datasets[i - 1]}.pt"
