@@ -16,7 +16,7 @@ from src.models.get_data_matrix import get_data_matrix
 
 if __name__ == '__main__':
     args = parse_arguments()
-    # args.cfg = './configs/mtil_order_I.json'
+    # args.config_path = './configs/mtil_order_I.json'
     try:
         with open(args.config_path, 'r', encoding='utf-8') as f:
             config = json.load(f)
@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
     datasets = config["train_dataset"]
     results = []
-    for i in range(1, len(datasets)):
+    for i in range(0, len(datasets)):
 
         args.train_dataset = datasets[i]
         args.log_path = f'log/{exp_name}/{args.train_dataset}.txt'
