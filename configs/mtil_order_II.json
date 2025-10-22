@@ -1,5 +1,5 @@
 {
-    "exp_name": "gnsp_mtil_order_II_seed2025",
+    "exp_name": "gnsp_mtil_order_II",
     "train":true,
     "evaluate":true,
     "zero-shot":false,
