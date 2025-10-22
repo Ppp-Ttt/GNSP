@@ -1,9 +1,9 @@
 {
-    "exp_name": "gnsp_mtil_order_I",
+    "exp_name": "gnsp_mtil_order_II_seed2025",
     "train":true,
     "evaluate":true,
     "zero-shot":false,
-    "exp_no": "mtil_order_I",
+    "exp_no": "mtil_order_II",
     "train_dataset": ["StanfordCars", "Food", "MNIST", "OxfordPet", "Flowers", "SUN397", "Aircraft", "Caltech101", "DTD", "EuroSAT", "CIFAR100"],
     "eval_dataset": ["StanfordCars", "Food", "MNIST", "OxfordPet", "Flowers", "SUN397", "Aircraft", "Caltech101", "DTD", "EuroSAT", "CIFAR100"],
     "learning_rate": [1e-5, 1e-5, 1e-5, 1e-5, 2e-5, 2e-5, 5e-5, 1e-5, 5e-5, 1e-5, 1e-5],
